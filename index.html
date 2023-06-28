@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Application Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Job Application Form</h1>
+
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" required>
+                <label for="file-input" class="file-label">Choose File</label>
+            </div>
+
+            <div class="form-group">
+                <label for="cover-letter">Cover Letter:</label>
+                <textarea id="cover-letter" name="cover-letter" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position:</label>
+                <select id="position" name="position" required>
+                    <option value="">Select Position</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="marketer">Marketer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Years of Experience:</label>
+                <input type="number" id="experience" name="experience" min="0" required>
+            </div>
+            
+
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

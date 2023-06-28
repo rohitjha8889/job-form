@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./photo-1475274047050-1d0c0975c63e.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+main {
+    border: 2px solid rebeccapurple;
+    box-shadow: 8px 8px 20px rgba(179, 56, 56, 0.4), -8px -8px 20px rgba(179, 56, 56, 0.4);
+    height: 800px;
+    padding: 60px;
+    z-index: 1;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+
+form {
+    /* border: 2px solid saddlebrown; */
+    width: 500px;
+    
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    /* display: flex; */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] ,
+input[type="number"] ,
+
+textarea,
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* margin-left: 20px; */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #resume{
+    display: none;
+  }
+  
